@@ -1,0 +1,49 @@
+/**
+* ! to change the default style of the body
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/**
+* ! to change the style of the content
+**/
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: #ff0;
+    font-family: 'Road Rage', cursive;
+    font-size: 80px;
+}
+
+.btn{
+    display: block;
+    outline: none;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 900;
+    border: 0;
+    padding: 15px 31px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.btn:target{
+    box-shadow: 0 0 100px #0f000f;
+}
