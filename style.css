@@ -9,13 +9,20 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color:palegoldenrod;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 28vh;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /**
@@ -25,12 +32,13 @@ body{
 h1{
     display: flex;
     justify-content: center;
-    color: #ff0;
+    color: #000;
     font-family: 'Road Rage', cursive;
     font-size: 80px;
+    text-shadow: 3px 3px sienna;
 }
 
-.btn{
+.btn, .btn2{
     display: block;
     outline: none;
     font-family: 'Hammersmith One', sans-serif;
@@ -41,9 +49,13 @@ h1{
     line-height: 1.4;
     font-size: 25px;
     cursor: pointer;
-    transition: 1s linear;
+    transition: 5s linear;
 }
 
-.btn:target{
-    box-shadow: 0 0 100px #0f000f;
+.btn:active{
+    transform: scale(8);
+}
+
+.btn2:active{
+    transform: scale(8);
 }
